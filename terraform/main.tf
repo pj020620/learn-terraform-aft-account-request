@@ -2,12 +2,12 @@ module "sandbox" {
   source = "./modules/aft-account-request"
 
   control_tower_parameters = {
-    AccountEmail              = "prabu_jaganathan@nsearchglobal.com"
-    AccountName               = "prabu-nsearch"
+    AccountEmail              = ""
+    AccountName               = ""
     ManagedOrganizationalUnit = "Sandbox"
-    SSOUserEmail              = "prabu_jaganathan@nsearchglobal.com"
-    SSOUserFirstName          = "Prabu"
-    SSOUserLastName           = "Jagan"
+    SSOUserEmail              = ""
+    SSOUserFirstName          = ""
+    SSOUserLastName           = ""
   }
 
   account_tags = {
@@ -23,5 +23,5 @@ module "sandbox" {
     group = "non-prod"
   }
 
-  account_customizations_name = "Prabu_nsearch"
+  account_customizations_name = ""
 }
